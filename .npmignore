@@ -1,6 +1,5 @@
 # 忽略目录
 examples/
-packages/
 public/
 tests/
 node_modules/
@@ -8,8 +7,9 @@ src/
 .vscode
 
 # 忽略指定文件
-vue.config.js
-babel.config.js
+*config.js
 *.map
 *lock
+.browserslistrc
+.eslintrc.js
 
