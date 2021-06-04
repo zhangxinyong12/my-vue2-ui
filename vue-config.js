@@ -1,10 +1,8 @@
-// vue-config.js
 module.exports = {
-  // 修改 src 目录 为 examples 目录
   pages: {
     index: {
       // page 的入口
-      entry: "src/examples.js", // 把src 修改为examples
+      entry: "src/main.js",
       // 模板来源
       template: "public/index.html",
       // 在 dist/index.html 的输出
