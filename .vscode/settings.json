@@ -1,0 +1,13 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "prettier.printWidth": 100,
+    "prettier.useTabs": true,
+    "[vue]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
