@@ -4,12 +4,13 @@
   "private": false,
   "description":"封装自己的npm包",
   "main":"lib/my-vue-ui.umd.min.js",
-  "keyword":"vue2",
+  "keywords":["vue2"],
   "author":{
     "name": "zhangxinyong",
     "email": "13271150671@wo.cn"  
   },
-  "homepage": "zhangxinyong.vie",
+  "license": "MIT",
+  "homepage": "zhangxinyong.vip",
   "repository": {
     "type":"git"
   },
@@ -22,7 +23,6 @@
     "lib": "vue-cli-service build --target lib --name my-vue-ui --dest lib packages/index.js"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
