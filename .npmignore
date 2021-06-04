@@ -4,6 +4,7 @@ packages/
 public/
 tests/
 node_modules/
+src/
 .vscode
 
 # 忽略指定文件
